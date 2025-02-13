@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "El Messiri", sans-serif !important;
+}
+body {
+  font-family: "El Messiri", sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+  color: white;
+}
+.container-fluid {
+  width: 440px !important;
+}
+#social-icons-section {
+  margin: 0 auto; /* تحقيق محاذاة المنتصف بواسطة الهوامش */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* محاذاة الحاوية في المنتصف */
+  align-items: center;
+  text-align: center;
+  direction: rtl; /* إضافة الاتجاه من اليمين لليسار */
+}
+#social-icons-section .contact-section-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+}
+#social-icons-section .contact-container-custom {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+#social-icons-section .icon-column-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+#social-icons-section .icon-container-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* تغيير المحاذاة إلى اليمين */
+  margin: 5px 0;
+  position: relative; /* إضافة لتحديد موضع رمز المشاركة */
+}
+#social-icons-section .icon-custom {
+  display: flex;
+  justify-content: flex-start; /* تغيير المحاذاة إلى اليمين */
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 5px; /* زيادة المسافة بين الأيقونات */
+  color: white;
+  position: relative;
+}
+#social-icons-section .icon-custom svg,
+#social-icons-section .icon-custom img {
+  font-size: 30px;
+  width: 35px; /* توحيد عرض الأيقونات */
+  height: 35px; /* توحيد ارتفاع الأيقونات */
+  margin-left: 10px; /* إضافة مسافة بين الأيقونة والنص */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain; /* ضبط الصور لتناسب الحاوية */
+}
+#social-icons-section .icon-text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+#social-icons-section .share-icon {
+  position: absolute;
+  left: 10px; /* تحديد موقع رمز المشاركة في يسار الحاوية */
+  font-size: 7px; /* تصغير حجم رمز المشاركة */
+  color: white;
+}
+.snapchat-icon {
+  color: #000000; /* ابيض */
+}
+.snapchat-text {
+  color: #000000; /* ابيض */
+}
+
+.contact-section-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+  color: #063d7d;
+}
+.contact-container-custom {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  color: #063d7d;
+}
+.icon-row-custom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+.icon-container-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+.icon-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60px;
+  height: 50px;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+.icon-custom svg {
+  font-size: 30px;
+}
+.modal-custom {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+.modal-content-custom {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  color: #063d7d;
+}
+.close-custom {
+  color: #063d7d;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close-custom:hover,
+.close-custom:focus {
+  color: #063d7d;
+  text-decoration: none;
+  cursor: pointer;
+}
+.phone-numbers-custom a,
+.email-addresses-custom a {
+  display: block;
+  margin: 10px 0;
+  color: #063d7d;
+  text-decoration: none;
+}
+.icon-custom.map {
+  font-size: 24px;
+}
+.icon-custom.clock {
+  font-size: 30px;
+}
+.icon-custom.map {
+  width: 270px;
+  height: 50px;
+}
+.icon-custom.clock {
+  width: 60px;
+  height: 50px;
+}
+.icon-container-custom {
+  margin-bottom: 3px;
+}
+.icon-row-custom {
+  margin-bottom: 3px;
+}
+#social-icons-section2 {
+  margin: 0 auto; /* تحقيق محاذاة المنتصف بواسطة الهوامش */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* محاذاة الحاوية في المنتصف */
+  align-items: center;
+  text-align: center;
+  direction: rtl; /* إضافة الاتجاه من اليمين لليسار */
+}
+#social-icons-section2 .contact-section-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+}
+#social-icons-section2 .contact-container-custom {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+#social-icons-section2 .icon-column-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+#social-icons-section2 .icon-container-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* تغيير المحاذاة إلى اليمين */
+  margin: 5px 0;
+  position: relative; /* إضافة لتحديد موضع رمز المشاركة */
+}
+#social-icons-section2 .icon-custom {
+  display: flex;
+  justify-content: flex-start; /* تغيير المحاذاة إلى اليمين */
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 1px; /* زيادة المسافة بين الأيقونات */
+  color: white;
+  position: relative;
+}
+#social-icons-section2 .icon-custom svg,
+#social-icons-section2 .icon-custom img {
+  font-size: 30px;
+  width: 35px; /* توحيد عرض الأيقونات */
+  height: 35px; /* توحيد ارتفاع الأيقونات */
+  margin-left: 5px; /* إضافة مسافة بين الأيقونة والنص */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain; /* ضبط الصور لتناسب الحاوية */
+}
+#social-icons-section2 .icon-text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+#social-icons-section2 .share-icon {
+  position: absolute;
+  left: 10px; /* تحديد موقع رمز المشاركة في يسار الحاوية */
+  font-size: 7px; /* تصغير حجم رمز المشاركة */
+  color: white;
+}
+.snapchat-icon {
+  color: #000000; /* ابيض */
+}
+.snapchat-text {
+  color: #000000; /* ابيض */
+}
+
+.contact-section-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+  color: #000000;
+}
+.contact-container-custom {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+}
+.icon-row-custom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+.icon-container-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+.icon-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60px;
+  height: 50px;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+.icon-custom i {
+  font-size: 30px;
+}
+.modal-custom {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+.modal-content-custom {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  color: #000000;
+}
+.close-custom {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close-custom:hover,
+.close-custom:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.phone-numbers-custom a,
+.email-addresses-custom a {
+  display: block;
+  margin: 10px 0;
+
+  text-decoration: none;
+}
+.icon-custom.map {
+  font-size: 24px;
+}
+.icon-custom.clock {
+  font-size: 30px;
+}
+.icon-custom.map {
+  width: 200px;
+  height: 50px;
+}
+.icon-custom.clock {
+  width: 130px;
+  height: 50px;
+}
+.icon-container-custom {
+  margin-bottom: 3px;
+}
+.icon-row-custom {
+  margin-bottom: 3px;
+}
