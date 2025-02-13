@@ -91,11 +91,11 @@ function App() {
         <i className="fas fa-map-marker-alt fa-2x"></i>
         <h3 className="fw-bold m-0">عناويننا</h3>
       </div>
-      <a href="#" className="map-link">
+      <a href="https://goo.gl/maps/oVfK3GSy4fmKfkCj7" className="map-link">
         <i className="fas fa-map-marked mb-1"></i>
         <span>صنعاء - الستين الجنوبي - جولة المرور</span>
       </a>
-      <a href="#" className="map-link">
+      <a href="https://goo.gl/maps/X3i2aeG5kT6CgVPL9" className="map-link">
         <i className="fas fa-map-marked mb-1"></i>
         <span>عدن - المنصورة - جوار جامع الرضا</span>
       </a>
