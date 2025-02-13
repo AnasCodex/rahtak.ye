@@ -11,9 +11,10 @@ a {
   color: white;
 }
 .container-fluid {
-  width: 440px !important;
+  width: 400px !important;
   background: #fab11d;
   padding: 20px;
+  height: 100vh;
 }
 #social-icons-section {
   margin: 0 auto; /* تحقيق محاذاة المنتصف بواسطة الهوامش */
