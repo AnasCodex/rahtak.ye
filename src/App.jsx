@@ -91,13 +91,15 @@ function App() {
         <i className="fas fa-map-marker-alt fa-2x"></i>
         <h3 className="fw-bold m-0">عناويننا</h3>
       </div>
-      <a href="https://goo.gl/maps/oVfK3GSy4fmKfkCj7" className="map-link">
+      <a href="https://maps.app.goo.gl/WaewHT6ZYLSocGeg7" className="map-link">
         <i className="fas fa-map-marked mb-1"></i>
-        <span>صنعاء - الستين الجنوبي - جولة المرور</span>
+        <span>صنعاء - الستين الجنوبي - جولة المرور مقابل فندق أبراج النيل</span>
       </a>
-      <a href="https://goo.gl/maps/X3i2aeG5kT6CgVPL9" className="map-link">
+      <a href="https://maps.app.goo.gl/gKi3rRZsURM5RKHF8" className="map-link">
         <i className="fas fa-map-marked mb-1"></i>
-        <span>عدن - المنصورة - جوار جامع الرضا</span>
+        <span>
+          عدن - المنصورة - الشارع الرئيسي جوار جامع الرضا امام توب سينتر
+        </span>
       </a>
     </div>
   );
